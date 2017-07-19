@@ -28,8 +28,12 @@ public enum HqlFunctions {
      */
     DAY("day"),
     /**
-     * 原值
-     */
+	 * SQL函数, 获得一个日期
+	 */
+	DATE("date"),
+	/**
+	 * 原值
+	 */
     DEFAULT("");
 
     private final String name;
